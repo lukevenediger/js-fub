@@ -1,0 +1,41 @@
+{
+  "name": "js-fub",
+  "version": "1.0.0",
+  "description": "A resilient WebSocket-enabled client library for the FUB (Firebase UDP Bridge)",
+  "main": "lib/fub.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukevenediger/js-fub.git"
+  },
+  "keywords": [
+    "fub",
+    "websockets",
+    "iot",
+    "smartjs",
+    "browser",
+    "node"
+  ],
+  "author": "Luke Venediger",
+  "email": "lukev@lukev.net",
+  "readme": "README.md",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lukevenediger/js-fub/issues"
+  },
+  "homepage": "https://github.com/lukevenediger/js-fub#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "gulp-mocha": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "jshint": "^2.9.2",
+    "jshint-stylish": "^2.1.0",
+    "mocha": "^2.4.5"
+  },
+  "dependencies": {
+    "plite": "0.0.3"
+  }
+}
